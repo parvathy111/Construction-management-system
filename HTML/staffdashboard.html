@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>adminpage</title>
+    <style>
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 20px;
+  overflow: hidden;
+  background-color: black;
+}
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: orange;
+  text-align: center;
+  padding: 10px 16px;
+  text-decoration: none;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: grey;
+}
+.active {
+  background-color: grey;
+}
+body{
+     margin:0;
+    background:url("image/interior6.jpg");
+    background-size: cover;
+}
+div{
+    /* background-color: rgb(224, 202, 217); */
+    background-color: rgb(42, 44, 44);
+    margin-top: 80px;
+    margin-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 450px;
+    margin-right: 450px;
+    padding-top: 60px;
+    padding-bottom: 80px;
+    border-radius: 11px;
+    opacity: 0.9;
+   
+}
+input{
+ width: 100%;
+  padding: 40px 55px;
+  border: none;
+ border-radius: 10px;
+
+}
+div a{
+    margin-top: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+    
+}
+input:hover{
+   background-color: grey; 
+}
+    </style>
+</head>
+<body>
+    <header>
+    <ul>
+     
+        <li><a class ="active" href="#">DASHBOARD</a></li>
+        <li><a href="logout.php">LOG OUT</a></li>
+      </ul></header>
+      <div>
+      <a href="profile.php"><input type="button" value="MY DETAILS"></a>
+      <a href="viewappointmentsstaff.php"><input type="button" value="APPOINTMENT DETAILS"></a>
+      <a href="viewbookingstaff.php"><input type="button" value="BOOKING DETAILS"></a>
+
+      </div>
+      
+    
+</body>
+</html>
