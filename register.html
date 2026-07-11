@@ -1,0 +1,74 @@
+<html>
+    <head>
+        <title>Register</title>
+        <style>*
+        {
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 15px;
+            color:#FFFFFF;
+        }
+	body{
+		  background:url("image/interior3.jpg");
+		  background-size:cover;
+		  background-repeat:no-repeat;
+                  opacity:0.9;
+}
+fieldset {
+  display: block;
+  margin-left: 500px;
+  margin-right: 500px;
+  border-radius: 10px;
+  background-color: rgb(42, 44, 44);
+  margin-bottom:40px;
+  
+}
+input {
+  width: 80%;
+  padding: 6px 55px;
+  margin: 10px 0px;
+  box-sizing:border-box;
+  background-color:rgb(63, 64, 65);
+  
+}
+a:hover
+{
+    color:white;
+    background:black;
+
+}
+        </style>
+    </head>
+    <body>
+        
+    <div>
+        <fieldset style="margin-top:50px;height:580px">
+        <h1 align="center" style="font-size: 30px;">REGISTER</h1>
+        <form action="register.php" method="post" name="register" >
+            <label style="margin-left: 30px;margin-right: 30px;padding: 1px 20px;">
+            <input type="text" name="name" required="" placeholder="NAME" style="margin-left:-5px;"><br>
+            <input type="text" name="phonenumber" required="" minlength="10" maxlength="10" placeholder="PHONENUMBER" style="margin-left:45px;"><br>
+             <input type="text" name="address" required="" placeholder="ADDRESS" style="margin-left:45px;"><br>
+            <input type="email" name="email" required=""  placeholder="EMAIL" style="margin-left:45px;"><br>
+            <input type="text" name="gender" required="" placeholder="GENDER" style="margin-left:45px;"><br>
+            <input type="text" name="username" required="" placeholder="USERNAME" style="margin-left:45px;"><br>
+            <input type="text" name="password" required="" placeholder="PASSWORD" style="margin-left:45px;"><br>
+            <input type="text" name="reenterpassword" required="" placeholder="REENTER PASSWORD" style="margin-left:45px;"><br>
+            <input type="Submit" name="register" value="REGISTER" size="100" style="color: rgb(0, 0, 0);background: #f7f7f7;border-radius: 10px;margin-left:120px;width:50%;">
+            <center> Already have an account?<a href="login.html"><font style="color:orange">login now</font></a></center>
+        </fieldset></form></div>
+    </div>
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
